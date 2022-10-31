@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mawinter <mawinter@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marius <marius@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/28 19:13:05 by mawinter          #+#    #+#             */
-/*   Updated: 2022/06/30 10:23:36 by mawinter         ###   ########.fr       */
+/*   Updated: 2022/10/31 17:50:00 by marius           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 # include <unistd.h>
 # include <stdlib.h>
 # define FD_SIZE 10240
-// # define BUFFER_SIZE 15
+# define BUFFER_SIZE 15
 # include <stdio.h>
 # include "fcntl.h"
 
