@@ -6,7 +6,7 @@
 /*   By: marius <marius@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/28 19:13:05 by mawinter          #+#    #+#             */
-/*   Updated: 2022/10/31 17:50:00 by marius           ###   ########.fr       */
+/*   Updated: 2022/11/08 13:26:48 by marius           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@
 # include "fcntl.h"
 
 int		get_idx_read(char *infobufd, int mode);
+
 int		readnew(char *infobufd, char *buf, int fd);
 int		setup(int *linelen, int fd, char **line);
 char	*ft_bufjoin(char *line, int bufidx, char *buf, int linelen);
